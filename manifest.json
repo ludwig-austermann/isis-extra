@@ -1,0 +1,18 @@
+{
+
+    "manifest_version": 2,
+    "name": "ISIS courses - Go to Current Section",
+    "version": "1.0",
+  
+    "description": "Go to the current heading / section on isis.tu-berlin.de pages.",
+  
+    "permissions": [
+      "activeTab",
+      "contextMenus"
+    ],
+
+    "background": {
+      "scripts": ["context_menu.js"]
+    }
+  
+}
